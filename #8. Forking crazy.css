@@ -1,0 +1,35 @@
+<div id="bottom"></div>
+<div id="top"></div>
+<style>
+  body {
+    background: #6592CF;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse
+  }
+  div {
+    background: #060F55;
+  }
+  #bottom {
+    height: 50px;
+    width: 20px;
+  }
+  #top {
+    height: 200px;
+    width: 140px;
+    border-radius: 100px;
+    background: linear-gradient(#6592CF 0%, #060F55 50%);
+  }
+  #top:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 110px;
+    background: #060F55;
+    border-radius: 15px;
+    box-shadow: #6592CF 20px 0px, #060F55 40px 0px,
+      #6592CF 60px 0px, #060F55 80px 0px, #6592CF 100px
+    0px, #060F55 120px 0px;
+  }
+</style>
