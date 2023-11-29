@@ -1,0 +1,13 @@
+<div></div>
+<style>
+  body {
+    background: #0B2429;
+    margin: 0px;
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    background: #F3AC3C;
+   transform: translate(-50%, -50%) rotate(45deg);
+  }
+</style>
