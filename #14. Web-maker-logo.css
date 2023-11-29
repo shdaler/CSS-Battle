@@ -1,0 +1,33 @@
+<div id="left"></div>
+<div id="middleLeft"></div>
+<div id="middleRight"></div>
+<div id="right"></div>
+<style>
+  body {
+    background: #F2F2B6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    border-top: 130px solid #FD4602;
+    border-right: 75px solid transparent;
+    border-left: 75px solid transparent;
+  }
+  #middleLeft {
+    transform: translate(30px);
+  }
+  #middleRight {
+    transform: rotate(180deg) translate(30px);
+  }
+  #left {
+    transform: translate(160px);
+    border-top-color: #FF6D00;
+    z-index: 1;
+  }
+  #right {
+    transform: rotate(180deg) translate(160px);
+    border-top-color: #FF6D00;
+    z-index: -1;
+  }
+</style>
