@@ -1,0 +1,14 @@
+<div></div>
+<style>
+body {
+  margin:75 75;
+  background: #09042A;
+ }
+div{
+  width: 150;
+  height: 150;
+  background: radial-gradient(circle at 120%, #09042A 79px, #7B3F61 10px);
+  border-radius: 100%;
+  box-shadow:100px 0 #E78481;
+}
+  </style>
