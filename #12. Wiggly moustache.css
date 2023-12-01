@@ -14,7 +14,7 @@
     width: 60px;
     position: relative;
   }
-  #middle{
+    #middle{
     height: 30px;
     border: 20px solid #D86F45;
     border-top-left-radius: 100px;
@@ -22,7 +22,7 @@
     border-bottom: 0px;
     bottom:24px;
   }
-    #left, #right {
+     #left, #right {
     height: 60px;
     border: 20px solid #D86F45;
     border-radius: 50%;
@@ -30,10 +30,10 @@
     border-right-color: transparent;
       transform:rotate(-45deg);
          }
-  #left {
+    #left {
     left: 20px;
   }
-  #right {
+    #right {
     right: 20px;}
   
     #leftDot, #rightDot {
