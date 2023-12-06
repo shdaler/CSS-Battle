@@ -1,0 +1,31 @@
+<div id="top"></div>
+<div id="left"></div>
+<div id="bottom"></div>
+ <style>
+   body{
+     background: #F5D6B4;
+     display: grid;
+     place-content: center;
+   }
+   div{
+     width:100px;
+     height: 100px;
+     background:#D86F45;
+     border-radius: 50px;
+     position:relative;
+   }
+   #bottom {
+     width: 180px;
+     height:50px;
+     bottom: 60px;
+     left:10px;
+        }
+   #left{
+     bottom: 10px;
+     right:10px;
+        }
+   #top{
+     left:70px;
+     top: 60px
+   }
+   </style>
