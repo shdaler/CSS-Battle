@@ -1,0 +1,36 @@
+<div id="main"></div>
+<div id="second"></div>
+<div id="third"></div>
+<style>
+  body{
+    background:#F3AC3C;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+      }
+  div{
+    position:absolute;
+  }
+  #main {
+    width:200px;
+    height:200px;
+    background:#1A4341;
+      }
+  #second{
+    width:100px;
+    height: 100px;
+    align-self:flex-end;
+    top:150px;
+    right:200px;
+    background:#998235;
+    z-index:1;
+  }
+  #third{
+    width:50px;
+    height:50px;
+    top:200px;
+    right:200px;
+    background:#F3AC3C;
+    z-index:2;
+  }
+</style>

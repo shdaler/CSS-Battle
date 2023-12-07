@@ -1,0 +1,46 @@
+<div id="left"></div>
+<div id="right"></div>
+<div id="yellow1"></div>
+<div id="yellow2"></div>
+ <style> 
+  body {
+    background: #62306D;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+      }
+   #left {
+     width: 100px;
+     height: 100px;
+     right: 70px;
+     top: -50px;
+     position:relative;
+     background: #AA445F;
+     border-radius: 50% 50% 0% 0%;
+   }
+   #right{
+     width: 100px;
+     height: 100px;
+     right: 80px;
+     top: 150px;
+     position:absolute;
+     background: #E38F66;
+     border-radius: 0% 0% 50% 50%;
+   }
+   #yellow1{
+     height: 100px;
+     width: 100px;
+     background: #F7EC7D;
+     border-radius: 100%;
+     position:absolute;
+     left: 80px;    
+   }
+   #yellow2{
+     height: 100px;
+     width: 100px;
+     background: #F7EC7D;
+     border-radius: 100%;
+     position:absolute;
+     right: 80px;    
+   }
+ </style>
