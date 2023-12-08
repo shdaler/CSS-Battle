@@ -1,0 +1,19 @@
+<div></div>
+<style>
+  body{
+    background:#E38F66;
+    display:grid;
+    place-content: center;
+      }
+  div {
+    width:80px;
+    height:80px;
+    background: #AA445F;
+    border-radius: 50%;
+    border: solid #f7ec7d 30px;
+    border-top-color: #AA445F;
+    border-bottom-color: #AA445F;
+    rotate: -45deg;
+    box-shadow: 0px 0px 0px 30px #AA445F;
+  }
+  </style>
