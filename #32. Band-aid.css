@@ -1,0 +1,20 @@
+<div id="yellow"></div>
+<div id="green"></div>
+<style>
+  div {
+    width: 50px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+  }
+  #yellow {
+    rotate: -45deg;
+    background: #F3AC3C;
+  }
+  #green{
+    rotate: 45deg;
+    background: linear-gradient(#A3A368 75px, #FBE18C 75px 125px, #A3A368 125px)
+  }
+</style>
