@@ -1,0 +1,14 @@
+<div></div>
+<style>
+  body {
+    background: #AA445F;
+    display: grid;
+    place-content: center;
+  }
+  div {
+    width: 250px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to right, #F7EC7D 100px, #AA445F 100px 150px, #E38F66 150px);
+  }
+</style>
