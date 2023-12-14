@@ -1,0 +1,24 @@
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<style>
+  body{
+    background:#1A4341;
+    display:flex;
+    justify-content:center;
+    margin:0px;
+  }
+  div{
+    width:50px;
+    height:200px;
+    background:#998235;
+    margin: 0px 12.5px;
+    border-radius: 0px 0px 25px 25px;
+  }
+  div:nth-of-type(odd) {
+      rotate: 180deg;
+  translate: 0px 50%;
+  background:#F3AC3C;
+  }
