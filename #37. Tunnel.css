@@ -1,0 +1,31 @@
+<div id="big">
+  <div id="middle">
+    <div id="small"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #6592CF;
+  }
+  div, body {
+    display: grid;
+    place-content: center;
+  }
+  #big {
+    width: 250px;
+    height: 250px;
+    background: #243D83;
+  }
+  #middle {
+    width: 150px;
+    height: 150px;
+    background: #6592CF;
+    rotate: 15deg;
+  }
+  #small {
+    width: 75px;
+    height: 75px;
+    background: #243D83;
+    rotate: 15deg;
+  }
+</style>
