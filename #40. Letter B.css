@@ -1,0 +1,22 @@
+<div></div>
+<style>
+  body {
+    background: #6592CF;
+    display: grid;
+    place-content: center;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    border-radius: 0px 50% 50% 50%;
+    border: #243D83 solid 50px;
+  }
+  div:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #6592CF;
+    translate: 0px -100%;
+  }
+</style>

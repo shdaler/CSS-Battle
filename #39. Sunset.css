@@ -1,0 +1,24 @@
+<div id="green"></div>
+<div id="yellow"></div>
+<style>
+  body {
+    background: #1A4341;
+    display: grid;
+    place-items: center;
+  }
+   div {
+    border-radius: 50%;
+  } 
+  #green {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(#998235 30px, #1A4341 30px 170px, #998235 170px);
+  }
+    #yellow {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    background: linear-gradient(transparent 75px, #F3AC3C 75px 95px, transparent 95px 115px, #F3AC3C 115px 135px, transparent 135px 155px, #F3AC3C 155px 175px, transparent 175px);
+  }
+</style>
+  
