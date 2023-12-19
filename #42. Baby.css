@@ -1,0 +1,46 @@
+<div>
+  <p></p>
+  <p></p>
+</div>
+<span></span>
+<style>
+  body {
+    background: #293462;
+    display: grid;
+    place-items: center;
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    background: #FE5F55;
+    border-radius: 50% 50% 25% 25%;
+    display: flex;
+    overflow: hidden;
+  }
+   p, p:before, span {
+    background: #FFF1C1;
+  }
+
+   p {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    translate: 0px -66%;
+  }
+    p:before {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 60px;
+    translate: 20px 140px;
+    border-radius: 50%;
+  }
+   span {
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    border-radius: 10px;
+    bottom: 70px;
+  }
+</style>
+ 

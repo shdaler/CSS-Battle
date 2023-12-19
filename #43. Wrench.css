@@ -1,0 +1,24 @@
+<div id="left"></div>
+<div id="right"></div>
+<style>
+  body {
+    background: #6592CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    width: 40px;
+    height: 182px;
+    border: solid #243D83 30px;
+    border-left: 0px;
+    border-radius: 0px 100px 100px 0px;
+  }
+  #left {
+    translate: 15px 1px;
+  }
+  #right {
+    translate: -15px 1px;
+    scale:-1;
+  }
+  </style>
