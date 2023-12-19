@@ -1,0 +1,37 @@
+<div></div>
+<div id="right"></div>
+<style>
+  body {
+    background: #293462;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    width: 50px;
+    height: 140px;
+    background: #FE5F55;
+    border-radius: 0px 40px 0px 0px;
+  }
+  div:before, div:after {
+    content: "";
+    display: block;
+    background: #293462;
+  }
+   div:before {
+    width: 30px;
+    height: 30px;
+    translate: 15px 60px;
+    border-radius: 50%;
+  }
+  div:after {
+    width: 50px;
+    height: 40px;
+    translate: 0px 70px;
+    border-radius: 0px 50px 0px 0px;
+  }
+   #right {
+    rotate: 180deg;
+    scale: 1 -1;
+  }
+</style>
