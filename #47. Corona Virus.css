@@ -1,0 +1,45 @@
+<p id="a"></p>
+<p id="b"></p>
+<p id="c"></p>
+<div id="circle">
+  <div></div>
+</div>
+<style>
+  body {
+    background: #1A4341;
+    display: grid;
+    place-items: center;
+  }
+    #circle {
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    border-radius: 50%;
+  }
+  p {
+    position: absolute;
+    width: 10px;
+    height: 180px;
+    background: #F3AC3C;
+    border-radius: 10px;
+  }
+   #a {
+    rotate: 60deg;
+    translate: 8px -5px;
+  }
+  #b {
+    rotate: -60deg;
+    translate: 8px 5px;
+  }
+  #c {
+    translate: 0px -10px;
+  }
+   div > div {
+    background: #998235;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    translate: 20px 20px;
+    box-shadow: 15px 40px 0px -5px #998235, 40px -10px 0px -10px #998235;
+  }
+</style>
