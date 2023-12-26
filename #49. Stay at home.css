@@ -1,0 +1,43 @@
+<div id="roof"></div>
+<div id="bottom">
+  <p id="window"></p>
+  <p id="door"></p>
+</div>
+<style>
+  body {
+    background: #6592CF;
+    align-content: center;
+  }
+  body, #bottom {
+    display: grid;
+    justify-items: center;
+  }
+  div {
+    width: 150px;
+    height: 100px;
+    background: #243D83;
+  }
+  #roof {
+    width: 200px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  #bottom {
+    border-radius: 0px 0px 10px 10px;
+    align-content: space-between;
+  }
+  p {
+    background: #EEB850;
+    margin: 0px;
+  }
+  #window {
+    width: 100px;
+    height: 10px;
+    border-radius: 5px;
+    translate: 0px -5px;
+  }
+  #door {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+  }
+</style>
