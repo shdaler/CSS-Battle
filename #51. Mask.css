@@ -1,0 +1,42 @@
+<div id="handle"></div>
+<div id="cup">
+  <div id="a"></div>
+  <div id="b"></div>
+</div>
+<style>
+  body {
+    background: #293462;
+    display: grid;
+    place-items: center;
+  }
+  #handle {
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    border: solid 10px #FFF1C1;
+    border-radius: 40px;
+    translate: 0px -20px;
+  }
+  #cup {
+    background: #FFF1C1;
+    width: 150px;
+    height: 100px;
+    border-radius: 0px 0px 50px 50px;
+    
+  }
+   #a, #b {
+    width: 40px;
+    background: #FE5F55;
+  }
+  #a {
+    height: 10px;
+    translate: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 20px #FE5F55;
+  }
+  #b {
+    height: 40px;
+    border-radius: 50%;
+    translate: 90px 30px;
+  }
+</style>
