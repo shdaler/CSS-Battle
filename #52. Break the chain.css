@@ -1,0 +1,52 @@
+<p></p>
+<div></div>
+<div></div>
+<div id="num3"></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<style>
+  body {
+    background: #6592CF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 45px;
+  }
+  div {
+    width: 10px;
+    height: 55px;
+    background: #243D83;
+    translate: 0px 12.5px;
+  }
+    #num3 {
+    margin-right: 30px;
+  }
+   div:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #243D83;
+    border-radius: 50%;
+    translate: -5px -5px;
+  }
+    p {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #EEB850;
+    border-radius: 50%;
+    translate: -15px -10px;
+    }
+  p {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #EEB850;
+    border-radius: 50%;
+    translate: -15px -10px;
+    box-shadow: 45px -10px 0px 10px #EEB850, 90px 0px #EEB850;
+  }
+</style>  
