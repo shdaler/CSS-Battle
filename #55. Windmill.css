@@ -1,0 +1,34 @@
+<div></div>
+<div id="topRight"></div>
+<div id="bottomLeft"></div>
+<div id="bottomRight"></div>
+<style>
+  body {
+    background: #191919;
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100px 100px;
+  }
+    div {
+    width: 100px;
+    height: 50px;
+    background: #F9E492;
+    border-radius: 50px 50px 0px 0px;
+  }
+    #topRight, #bottomLeft {
+    background: #4F77FF;
+  }
+    #topRight {
+      rotate:90deg;
+      transform-origin: top;
+    }
+   #bottomLeft {
+    transform-origin: top;
+    rotate: -90deg;
+    translate: 0px 50px;
+  }
+   #bottomRight {
+    rotate: 180deg;
+  }
+</style>
+  
