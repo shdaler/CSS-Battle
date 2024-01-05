@@ -1,0 +1,58 @@
+<div id="top"></div>
+<div id="second"></div>
+<div id="third"></div>
+<div id="fourth"></div>
+<div id="yellowTop"></div>
+<div id="bottom"></div>
+<style>
+  body {
+    background: #191919;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-rows: 30px 10px 30px 50px 0px 90px;
+  }
+  div {
+    width: 30px;
+    height: 30px;
+    background: #4F77FF;
+    border-radius: 50%;
+  }
+    #top, #second {
+    box-shadow: 0px 0px 0px 10px #191919;
+  }
+   #top {
+    z-index: 3;
+  }
+   #second, #third {
+    border-radius: 10px 10px 50px 50px;
+  }
+  #second {
+    width: 100px;
+    z-index: 2;
+  }
+   
+  #third {
+    width: 140px;
+  }
+   
+  #fourth {
+    width: 100px;
+    height: 50px;
+    border-radius: 0px 0px 100px 100px;
+    background: linear-gradient(#191919 10px, #4F77FF 10px);
+    z-index: 1;
+  }
+    #yellowTop, #bottom {
+    background: #F9E492;
+  }
+  #yellowTop {
+    width: 40px;
+    height: 40px;
+  }
+  #bottom {
+    height: 90px;
+    width: 20px;
+    border-radius: 10px;
+  }
+</style>
