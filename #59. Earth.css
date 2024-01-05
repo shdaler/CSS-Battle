@@ -1,0 +1,45 @@
+<div>
+  <p></p>
+  <p></p>
+  <p></p>
+</div>
+<span id="leftCurve"></span>
+<span id="vertical"></span>
+<span id="rightCurve"></span>
+<style>
+  body {
+    background: #191919;
+    display: grid;
+    place-items: center;
+  }
+  div {
+    width: 150px;
+    height: 150px;
+    background: #4F77FF;
+    border-radius: 50%;
+  }
+  span {
+    position: absolute;
+    width: 200px;
+    height: 190px;
+    border-radius: 200px;
+  }
+  #leftCurve, #rightCurve {
+    border: 10px solid #191919;
+  }
+  #leftCurve {
+    translate: 65px;
+  }
+  #rightCurve {
+    translate: -65px;
+  }
+  #vertical {
+    width: 10px;
+    background: #191919;
+  }
+  p {
+    background: #191919;
+    height: 10px;
+    margin: 30px 0px;
+  }
+</style>
