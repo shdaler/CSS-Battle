@@ -1,0 +1,39 @@
+<div id="leftTop"></div>
+<div id="rightTop"></div>
+<div id="center"></div>
+<div id="leftBottom"></div>
+<div id="rightBottom"></div>
+<style>
+  body {
+    background: #191919;
+    display: grid;
+    grid-template: 60px 60px 60px / 70px 50px 70px;
+    place-content: center;
+    place-items: center;
+  }
+  div {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #5DBCF9;
+    translate: 1px -1px;
+  }
+  #leftTop, #leftBottom {
+    grid-column: span 2;
+    justify-self: start;
+  }
+  #center {
+    grid-column: span 3;
+  }
+  #leftTop {
+    border-radius: 50px 50px 0px 50px;
+  }
+  #rightTop {
+    border-radius: 50px 50px 50px 0px;
+  }
+  #leftBottom {
+    border-radius: 50px 0px 50px 50px;
+  }
+  #rightBottom {
+    border-radius: 0px 50px 50px 50px;
+  }
+</style>
