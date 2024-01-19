@@ -1,0 +1,41 @@
+<div id="dark"></div>
+<div id="light"></div>
+<p id="left"></p>
+<p id="right"></p>
+<style>
+  body {
+    background: #191919;
+    display: grid;
+    place-items: center;
+  }
+  #dark {
+    width: 100px;
+    height: 100px;
+    background: #E08027;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 30px #824B20;
+  }
+  #light {
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    border: 20px solid #FFF58F;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top: 0px;
+    translate: 0px 30px;
+  }
+  p {
+    position: absolute;
+    background: #FFF58F;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+  }
+  #left {
+    translate: -50px;
+  }
+  #right {
+    translate: 50px;
+  }
+</style>
