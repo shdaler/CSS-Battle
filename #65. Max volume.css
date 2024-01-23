@@ -1,0 +1,40 @@
+<div
+  id="left"
+  > </div
+  > <div
+  id="horn"
+  > </div
+  > <div
+  id="sound"
+  > </div
+  > <style
+  > body {
+  background: #191919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  height: 50px;
+  background: #5dbcf9;
+}
+#left {
+  width: 50px;
+  border-radius: 10px 0px 0px 10px;
+}
+#horn {
+  border-top: 75px solid #191919;
+  border-right: 75px solid #5dbcf9;
+  border-bottom: 75px solid #191919;
+  z-index: 1;
+  box-shadow: 25px 0px #191919;
+}
+#sound {
+  width: 40px;
+  height: 80px;
+  margin: 0px 60px 0px 25px;
+  border-radius: 0px 80px 80px 0px;
+  box-shadow: 0px 0px 0px 10px #5dbcf9, 0px 0px 0px 25px #191919,
+    0px 0px 0px 35px #5dbcf9, 0px 0px 0px 50px #191919, 0px 0px 0px 60px #5dbcf9;
+  background: #191919;
+}
