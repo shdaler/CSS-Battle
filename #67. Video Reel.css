@@ -1,0 +1,38 @@
+<div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <style
+  > body {
+  background: #5dbcf9;
+  display: grid;
+  grid-template: 80px 110px 80px / 45px 140px 140px 45px;
+  gap: 40px 10px;
+  margin: 0px;
+}
+div {
+  background: #191919;
+}
+div:nth-of-type(even) {
+  translate: 0px -50px;
+}
