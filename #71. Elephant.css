@@ -1,0 +1,78 @@
+<div
+  id="ear1"
+  > </div
+  > <div
+  id="head"
+  > <div
+  id="eye1"
+  > </div
+  > <div
+  id="eye2"
+  > </div
+  > </div
+  > <div
+  id="ear2"
+  > </div
+  > <div
+  id="tusks"
+  > </div
+  > <div
+  id="trunk"
+  > </div
+  > <style
+  > body {
+  background: #998235;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  grid-template-columns: 60px 160px 60px;
+  margin: 0px;
+}
+#ear1,
+#ear2 {
+  width: 80px;
+  height: 180px;
+  background: radial-gradient(80px 180px at 56px, #0b2429 50%, #1a4341 50%);
+  border-radius: 50%;
+}
+#ear2 {
+  scale: -1;
+  z-index: -1;
+}
+#head {
+  width: 180px;
+  height: 180px;
+  background: #1a4341;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#eye1,
+#eye2 {
+  width: 20px;
+  height: 10px;
+  background: #0b2429;
+  margin-top: 19px;
+  border-radius: 0px 0px 20px 20px;
+  border: 10px solid #998235;
+  border-top: none;
+}
+#tusks {
+  position: absolute;
+  height: 40px;
+  width: 80px;
+  border-radius: 80px 80px 0px 0px;
+  border: solid 20px #ffffff;
+  border-bottom: 0px;
+  top: 190px;
+}
+#trunk {
+  background: #0b2429;
+  width: 40px;
+  height: 120px;
+  position: absolute;
+  align-self: end;
+  border-radius: 20px 20px 0px 0px;
+}
