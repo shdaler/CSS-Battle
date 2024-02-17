@@ -1,0 +1,80 @@
+<div id="ear1"></div>
+<div id="ear2"></div>
+<div id="head">
+  <div id="stripe"></div>
+  <div id="eye1"></div>
+  <div id="eye2"></div>
+  <div id="white">
+  <div id="mouth"></div>
+  </div>
+</div>
+<style>
+    body {
+    background: #F3AC3C;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template: 0px 110px / 110px 110px;
+  }
+    #ear1, #ear2 {
+    width: 40px;
+    height: 40px;
+    background: #1A4341;
+    border-radius: 50%;
+    border: 10px solid #998235;
+  }
+    #head {
+    width: 150px;
+    height: 150px;
+    background: #998235;
+    border-radius: 75px 75px 60px 60px;
+    grid-column: span 2;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+  #stripe {
+    width: 40px;
+    height: 40px;
+    background: #1A4341;
+    rotate: 45deg;
+    translate: 0px -26px;
+  }
+  #eye1, #eye2 {
+    background: #1A4341;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  #eye1 {
+    translate: -40px 9px;
+  }
+  #eye2 {
+    translate: 40px -18px;
+  }
+  #white {
+    background: #FFFFFF;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px 20px 50px 50px;
+    translate: 0px -11px;
+  }
+  #mouth {
+    background: #1A4341;
+    height: 30px;
+    width: 10px;
+    translate: 45px -10px;
+  }
+  #mouth:before, #mouth:after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 10px;
+    border: 10px solid #1A4341;
+    border-radius: 0px 0px 20px 20px;
+    border-top: 0px;
+  }
+  #mouth:before {
+    translate: -30px 20px;
+  }
+</style>
