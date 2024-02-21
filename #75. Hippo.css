@@ -1,0 +1,77 @@
+<div
+  id="ear1"
+  > </div
+  > <div
+  id="ear2"
+  > </div
+  > <div
+  id="head"
+  > </div
+  > <div
+  id="nose"
+  > </div
+  > <style
+  > body {
+  background: #191919;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  grid-template: 40px 50px 80px / 80px 80px;
+}
+#ear1,
+#ear2 {
+  width: 20px;
+  height: 10px;
+  background: #000000;
+  border-radius: 50%;
+  border: 5px solid #fe5f55;
+  rotate: 45deg;
+  z-index: -1;
+}
+#ear2 {
+  rotate: -45deg;
+}
+#head {
+  width: 130px;
+  height: 110px;
+  background: #fe5f55;
+  border-radius: 60px 60px 0px 0px;
+  padding: 25px;
+}
+#nose {
+  width: 150px;
+  height: 100px;
+  background: #a64942;
+  border-radius: 120px 120px 100px 100px;
+  padding: 20px;
+}
+#head,
+#nose {
+  grid-column: span 2;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div:before,
+div:after {
+  content: "";
+  display: block;
+  background: #000000;
+  border-radius: 50%;
+}
+#head:before,
+#head:after {
+  width: 10px;
+  height: 10px;
+}
+#nose:before,
+#nose:after {
+  width: 30px;
+  height: 20px;
+  rotate: -45deg;
+  margin-bottom: 30px;
+}
+#nose:after {
+  rotate: 45deg;
+}
