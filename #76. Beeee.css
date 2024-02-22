@@ -1,0 +1,52 @@
+<div
+  id="leftWing"
+  > </div
+  > <div
+  id="rightWing"
+  > </div
+  > <div
+  id="body"
+  > <div
+  id="eye"
+  > </div
+  > </div
+  > <style
+  > body {
+  background: #998235;
+  display: grid;
+  place-content: center;
+  grid-template-columns: auto auto;
+}
+
+#leftWing,
+#rightWing {
+  width: 75px;
+  height: 75px;
+  background: #ffffff;
+  border-radius: 50% 50% 0%;
+}
+#rightWing {
+  rotate: 90deg;
+}
+#body {
+  grid-column: span 2;
+  width: 150px;
+  height: 75px;
+  background: linear-gradient(
+    to right,
+    #191919 25px,
+    #eff33c 25px 35px,
+    #191919 35px 60px,
+    #eff33c 60px 70px,
+    #191919 70px 95px,
+    #eff33c 95px
+  );
+  border-radius: 40px;
+}
+#eye {
+  width: 15px;
+  height: 15px;
+  background: #191919;
+  translate: 115px 20px;
+  border-radius: 50%;
+}
