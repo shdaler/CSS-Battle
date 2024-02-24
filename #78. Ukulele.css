@@ -1,0 +1,71 @@
+<div id="leftBody">
+  <div></div>
+</div>
+<div id="rightBody">
+  <div></div>
+</div>
+<div id="neck"></div>
+<div id="headstock">
+  <div></div>
+  <div></div>
+</div>
+<style>
+  body {
+    background: #F3AC3C;
+    display: flex;
+    align-items: center;
+  }
+  #leftBody, #rightBody {
+    background: #998235;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+  }
+  #leftBody > div {
+    width: 10px;
+    height: 40px;
+    background: #1A4341;
+    border-radius: 5px;
+    translate: -15px;
+  }
+  #rightBody > div {
+    height: 40px;
+    width: 40px;
+    background: #1A4341;
+    border-radius: 50%;
+    border: 5px solid #F3AC3C;
+  }
+  #leftBody {
+    width: 120px;
+    height: 120px;
+    translate: 37px;
+  }
+  #rightBody {
+    width: 100px;
+    height: 100px;
+    translate: -13px;
+    z-index: 1;
+  }
+  #neck {
+    width: 110px;
+    height: 20px;
+    background: #1A4341;
+    translate: -20px;
+  }
+  #headstock {
+    width: 40px;
+    height: 30px;
+    background: #998235;
+    border-radius: 10px;
+    translate: -23px;
+    display: grid;
+    place-content: center;
+    gap: 6px;
+  }
+  #headstock > div {
+    width: 20px;
+    height: 4px;
+    background: #1A4341;
+    border-radius: 2px;
+  }
+</style>
