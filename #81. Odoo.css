@@ -1,0 +1,37 @@
+<div
+  id="left"
+  > </div
+  > <div
+  id="d"
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <style
+  > body {
+  background: #191919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  width: 40px;
+  height: 40px;
+  background: #191919;
+  border: 20px solid #8f8f8f;
+  border-radius: 50%;
+  margin: 23px 1px 0px;
+}
+#left {
+  border-color: #714b67;
+}
+#d:before {
+  content: "";
+  display: block;
+  height: 65px;
+  width: 20px;
+  background: #8f8f8f;
+  translate: 40px -40px;
+  border-radius: 20px;
+}
