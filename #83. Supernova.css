@@ -1,0 +1,39 @@
+<div
+  > </div
+  > <div
+  id="lightBlue"
+  > </div
+  > <div
+  id="darkBlue"
+  > </div
+  > <div
+  id="yellow"
+  > </div
+  > <style
+  > body {
+  background: #243d83;
+  display: grid;
+  place-items: center;
+}
+div {
+  width: 100px;
+  height: 220px;
+  background: #6592cf;
+  position: absolute;
+  rotate: -45deg;
+  border-radius: 50px;
+}
+#lightBlue {
+  rotate: 45deg;
+}
+#darkBlue {
+  width: 120px;
+  height: 120px;
+  background: #243d83;
+  border-radius: 0px;
+}
+#yellow {
+  width: 60px;
+  height: 60px;
+  background: #eeb850;
+}
