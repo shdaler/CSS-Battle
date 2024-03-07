@@ -1,0 +1,43 @@
+<div
+  > <p
+  id="top"
+  > </p
+  > <p
+  id="second"
+  > </p
+  > <p
+  id="third"
+  > </p
+  > <p
+  > </p
+  > </div
+  > <style
+  > body {
+  background: #191919;
+  display: grid;
+  place-items: center;
+}
+div {
+  width: 100px;
+  height: 150px;
+  background: #4f77ff;
+  border-radius: 100px 100px 0px 0px;
+  display: grid;
+  justify-items: end;
+  align-content: end;
+}
+p {
+  height: 20px;
+  width: 80px;
+  background: #191919;
+  margin: 4px 0 0 0;
+}
+#top {
+  width: 20px;
+}
+#second {
+  width: 40px;
+}
+#third {
+  width: 60px;
+}
