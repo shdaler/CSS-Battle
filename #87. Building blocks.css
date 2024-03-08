@@ -1,0 +1,52 @@
+<div
+  id="a"
+  > </div
+  > <div
+  id="b"
+  > </div
+  > <div
+  id="center"
+  > </div
+  > <div
+  id="d"
+  > </div
+  > <div
+  id="e"
+  > </div
+  > <style
+  > body {
+  background: #f3ac3c;
+  display: grid;
+  place-items: center;
+}
+div {
+  width: 150px;
+  height: 50px;
+  background: #1a4341;
+  position: absolute;
+}
+#center {
+  width: 70px;
+  height: 70px;
+  background: #f3ac3c;
+  border-radius: 10px;
+  box-shadow: 30px 30px #1a4341, -30px -30px #1a4341;
+}
+#a {
+  translate: -60px -60px;
+  border-radius: 10px 10px 10px 0px;
+}
+#b {
+  width: 100px;
+  translate: -85px -10px;
+  border-radius: 0px 0px 10px 10px;
+}
+#d {
+  width: 100px;
+  translate: 85px 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+#e {
+  translate: 60px 60px;
+  border-radius: 10px 0px 10px 10px;
+}
