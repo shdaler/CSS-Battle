@@ -1,0 +1,29 @@
+<div></div>
+<div id="topRight"></div>
+<div id="bottomLeft"></div>
+<div id="bottomRight"></div>
+<style>
+  body {
+    background: #F7F3DA;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+  }
+  div {
+    width: 200px;
+    height: 40px;
+    background: #D25B70;
+    border-radius: 0px 10px 10px 0px;
+  }
+  #topRight, #bottomLeft {
+    background: #F7F3DA;
+    border-radius: 0px 0px 0px 20px;
+  }
+  #bottomLeft, #bottomRight {
+    rotate: 180deg;
+  }
+  #topRight {
+    box-shadow: -20px 20px #D25B70;
+  }
+</style>
