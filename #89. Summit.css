@@ -1,0 +1,39 @@
+<div
+  id="circle"
+  > <div
+  id="dark"
+  > </div
+  > </div
+  > <div
+  id="blue"
+  > </div
+  > <style
+  > body {
+  background: #191919;
+  display: grid;
+  place-items: center;
+  margin: 0px;
+}
+#circle {
+  width: 200px;
+  height: 200px;
+  background: #f9e492;
+  border-radius: 50%;
+  z-index: 1;
+  overflow: hidden;
+  translate: 0px -0.5px;
+}
+#blue {
+  position: absolute;
+}
+#dark,
+#blue {
+  border-left: 141px solid transparent;
+  border-right: 141px solid transparent;
+  border-bottom: 141px solid #4f77ff;
+  align-self: end;
+}
+#dark {
+  border-bottom-color: #191919;
+  translate: -41px 109px;
+}
