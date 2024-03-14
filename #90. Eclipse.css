@@ -1,0 +1,34 @@
+<div
+  id="top"
+  > </div
+  > <div
+  id="middle"
+  > </div
+  > <div
+  id="bottom"
+  > </div
+  > <style
+  > body {
+  background: #f3ac3c;
+  display: grid;
+  justify-items: center;
+  margin: 0px;
+}
+div {
+  width: 400px;
+  height: 200px;
+  background: #998235;
+  border-radius: 0px 0px 200px 200px;
+  translate: 0px -50px;
+}
+#middle {
+  position: absolute;
+  background: #1a4341;
+  width: 200px;
+  border-radius: 50%;
+  align-self: center;
+  border: 25px solid #f3ac3c;
+}
+#bottom {
+  rotate: 180deg;
+}
