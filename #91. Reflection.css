@@ -1,0 +1,21 @@
+<div > </div > <style > body {
+  background: linear-gradient(#d25b70 50%, #6cb3a9 50%);
+  display: grid;
+  place-items: center;
+}
+div {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    #f6df96 50%,
+    #6cb3a9 50% 115px,
+    #f6df96 115px 125px,
+    #6cb3a9 125px 140px,
+    #f6df96 140px 150px,
+    #6cb3a9 150px 165px,
+    #f6df96 165px 175px,
+    #6cb3a9 175px 190px,
+    #f6df96 190px
+  );
+  border-radius: 50%;
+}
