@@ -1,0 +1,33 @@
+<div > </div > <style > body {
+  background: #6592cf;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+div {
+  width: 200px;
+  height: 200px;
+  background: #243d83;
+  translate: -126px;
+  border-radius: 50%;
+  box-shadow: 226px 0px, 452px 0px, 113px 0px 0px -70px, 338px 0px 0px -70px;
+  color: #243d83;
+}
+div:before,
+div:after {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 20px;
+  background: #6592cf;
+  color: #6592cf;
+  box-shadow: 226px 0px;
+}
+div:before {
+  translate: 197px 110px;
+  border-radius: 32px 32px 0px 0px;
+}
+div:after {
+  translate: 197px 50px;
+  border-radius: 0px 0px 32px 32px;
+}
