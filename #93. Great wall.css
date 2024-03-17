@@ -1,0 +1,43 @@
+<div > <p > </p > <p > </p > <p id="bottom" > </p > </div > <style > body {
+  background: #4f77ff;
+  display: grid;
+  place-items: center;
+}
+div {
+  width: 200px;
+  height: 200px;
+  background: #191919;
+  border-radius: 50%;
+  overflow: hidden;
+  display: grid;
+  align-content: end;
+}
+p {
+  width: 100px;
+  height: 16px;
+  background: #f9e492;
+  margin: 5px 0px;
+  box-shadow: 120px -13px #f9e492;
+}
+#bottom {
+  margin-bottom: 10px;
+}
+div:before,
+p:before {
+  content: "";
+  display: block;
+}
+p:before {
+  width: 20px;
+  height: 16px;
+  background: #d6b73f;
+  transform: skew(0deg, -34deg);
+  translate: 100px -7px;
+}
+div:before {
+  width: 40px;
+  height: 40px;
+  background: #f9e492;
+  border-radius: 50%;
+  translate: 40px -37px;
+}
