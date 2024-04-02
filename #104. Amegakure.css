@@ -1,0 +1,54 @@
+<div
+  id="outer"
+  > <div
+  id="inner"
+  > <div
+  id="dots"
+  > </div
+  > <div
+  id="strips"
+  > </div
+  > </div
+  > </div
+  > <style
+  > body {
+  background: #000000;
+}
+body,
+#outer {
+  display: grid;
+  place-items: center;
+}
+#outer {
+  width: 240px;
+  height: 120px;
+  background: #37385a;
+  border-radius: 20px;
+}
+#inner {
+  width: 170px;
+  height: 50px;
+  background: linear-gradient(
+    105deg,
+    #9897ae 82px,
+    #c0c3db 82px 132px,
+    #9897ae 132px
+  );
+  padding: 15px;
+  border-radius: 10px;
+}
+#dots {
+  width: 10px;
+  height: 10px;
+  background: #000000;
+  border-radius: 50%;
+  box-shadow: 0px 20px, 0px 40px, 160px 0px, 160px 20px, 160px 40px;
+}
+#strips {
+  width: 10px;
+  height: 50px;
+  background: #000000;
+  translate: 50px -10px;
+  border-radius: 10px;
+  box-shadow: 20px 0px, 40px 0px, 60px 0px;
+}
