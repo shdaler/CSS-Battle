@@ -1,0 +1,13 @@
+<div > </div > <style > body {
+  background: #191919;
+  padding: 12px;
+}
+div {
+  width: 40px;
+  height: 40px;
+  background: #f6e59c;
+  border-radius: 50%;
+  box-shadow: 60px 0px, 120px 0px, 180px 0px, 0px 60px, 60px 60px, 120px 60px,
+    0px 120px, 60px 120px, 0px 180px;
+  color: #f6e59c;
+}
