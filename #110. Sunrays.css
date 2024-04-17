@@ -1,0 +1,51 @@
+<div
+  > </div
+  > <div
+  id="a"
+  > </div
+  > <div
+  id="b"
+  > </div
+  > <div
+  id="c"
+  > </div
+  > <div
+  id="d"
+  > </div
+  > <div
+  id="e"
+  > </div
+  > <div
+  id="f"
+  > </div
+  > <style
+  > body {
+  background: #d25b70;
+  padding: 187px 0px 0px 72px;
+}
+div {
+  width: 100px;
+  height: 10px;
+  background: #f2e09f;
+  position: absolute;
+  border-radius: 10px;
+  transform-origin: 120px;
+}
+#a {
+  rotate: 30deg;
+}
+#b {
+  rotate: 60deg;
+}
+#c {
+  rotate: 90deg;
+}
+#d {
+  rotate: 120deg;
+}
+#e {
+  rotate: 150deg;
+}
+#f {
+  rotate: 180deg;
+}
