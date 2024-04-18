@@ -1,0 +1,31 @@
+<div
+  > </div
+  > <div
+  id="left"
+  > </div
+  > <div
+  id="bottom"
+  > </div
+  > <style
+  > body {
+  background: #f3ac3c;
+  display: grid;
+  place-items: center;
+}
+div {
+  width: 80px;
+  height: 80px;
+  background: #254241;
+  border-radius: 50% 50% 50% 0%;
+  position: absolute;
+  rotate: -45deg;
+  translate: 0px -70px;
+}
+#left {
+  rotate: 225deg;
+  translate: -80px;
+}
+#bottom {
+  rotate: 135deg;
+  translate: 0px 70px;
+}
