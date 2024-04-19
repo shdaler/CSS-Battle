@@ -1,0 +1,12 @@
+<div > </div > <div > </div > <div > </div > <style > body {
+  background: #6592cf;
+  display: grid;
+  place-content: center;
+  grid-template-rows: 50px 50px;
+}
+div {
+  width: 250px;
+  height: 100px;
+  background: #293d7e;
+  clip-path: polygon(0 0, 15.5% 0, 50% 69.5%, 84.5% 0, 100% 0, 50% 100%);
+}
