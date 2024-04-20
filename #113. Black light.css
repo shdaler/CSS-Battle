@@ -1,0 +1,11 @@
+<div > </div > <style > body {
+  background: #5776f6;
+  margin: 100px 0px;
+}
+div {
+  width: 0px;
+  height: 50px;
+  border-bottom: 25px solid #5776f6;
+  border-top: 25px solid #5776f6;
+  border-right: 400px solid #191919;
+}
