@@ -13,3 +13,21 @@
   display: grid;
   place-items: center;
 }
+div {
+  width: 360px;
+  height: 150px;
+  background: #f2e09f;
+  border-radius: 0px 0px 100px;
+}
+#center {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: linear-gradient(#c36271 50%, #f2e09f 50%);
+  border-radius: 50%;
+  z-index: 1;
+}
+#bottom {
+  background: #c36271;
+  rotate: 180deg;
+}
