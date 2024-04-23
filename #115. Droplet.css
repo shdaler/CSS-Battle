@@ -1,0 +1,15 @@
+<div
+  > </div
+  > <div
+  id="center"
+  > </div
+  > <div
+  id="bottom"
+  > </div
+  > <style
+  > body {
+  background: linear-gradient(to right, #f2e09f 50%, #c36271 50%);
+  margin: 0px;
+  display: grid;
+  place-items: center;
+}
