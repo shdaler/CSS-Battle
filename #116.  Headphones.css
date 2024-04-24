@@ -1,0 +1,36 @@
+<div
+  id="top"
+  > </div
+  > <div
+  id="left"
+  > </div
+  > <div
+  id="right"
+  > </div
+  > <style
+  > body {
+  background: #293d7e;
+  display: grid;
+  place-content: center;
+}
+#top {
+  width: 130px;
+  height: 100px;
+  background: #293d7e;
+  border: 20px solid #6e91ca;
+  border-bottom: none;
+  border-radius: 85px 85px 0px 0px;
+  grid-column: span 2;
+}
+#left,
+#right {
+  width: 60px;
+  height: 80px;
+  background: #6e91ca;
+  border-radius: 0px 20px 30px 30px;
+  margin-bottom: 10px;
+}
+#right {
+  border-radius: 20px 0px 30px 30px;
+  justify-self: end;
+}
