@@ -1,0 +1,57 @@
+<div
+  id="a"
+  > </div
+  > <div
+  id="dot"
+  > </div
+  > <div
+  id="v"
+  > </div
+  > <style
+  > body {
+  background: #ffffff;
+  display: grid;
+  place-items: center;
+  place-content: center;
+}
+div {
+  position: absolute;
+}
+#a {
+  width: 216px;
+  height: 180px;
+  background: #2e2926;
+  clip-path: polygon(
+    84px 0,
+    132px 0,
+    100% 100%,
+    172px 100%,
+    50% 43px,
+    44px 100%,
+    0% 100%
+  );
+}
+#dot {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background: #0088ca;
+}
+#v {
+  height: 122px;
+  width: 170px;
+  border: 20px solid #0088ca;
+  border-right-color: #ffffff;
+  border-top-color: #ffffff;
+  translate: 17px -64px;
+  rotate: -45deg;
+  box-shadow: -8px 8px 0px 0px #ffffff, inset 8px -8px 0px 0px #ffffff;
+  clip-path: polygon(
+    45px 5px,
+    72% 0%,
+    100% 120px,
+    170px 162px,
+    0px 110%,
+    -9% 67px
+  );
+}
