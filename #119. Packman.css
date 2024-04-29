@@ -1,0 +1,48 @@
+<div
+  id="left"
+  > </div
+  > <div
+  id="middle"
+  > </div
+  > <div
+  id="right"
+  > </div
+  > <style
+  > body {
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+}
+#left {
+  width: 60px;
+  height: 60px;
+  background: #e0e246;
+  border-radius: 50%;
+  clip-path: polygon(95% 0, 46% 50%, 96% 100%, 0 100%, 0 0);
+}
+#middle {
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+  border-radius: 50%;
+  box-shadow: -30px 0px #ffffff, 30px 0px #ffffff;
+}
+#right {
+  width: 60px;
+  height: 60px;
+  background: #c74e4e;
+  border-radius: 50% 50% 0px 0px;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 96%,
+    83% 79%,
+    68% 96%,
+    50% 79%,
+    33% 96%,
+    17% 79%,
+    0px 96%
+  );
+}
