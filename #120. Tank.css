@@ -1,0 +1,60 @@
+<div
+  id="top1"
+  > </div
+  > <div
+  id="top2"
+  > </div
+  > <div
+  id="right"
+  > </div
+  > <div
+  id="middle"
+  > </div
+  > <div
+  id="tanks"
+  > <div
+  > </div
+  > <div
+  id="gun"
+  > </div
+  > </div
+  > <style
+  > body {
+  border: 20px solid #54c144;
+  margin: 0px;
+  background: #000000;
+  padding: 40px;
+  display: grid;
+  grid-template: 40px 20px / 80px 80px 40px;
+  gap: 40px;
+}
+div {
+  width: 80px;
+  height: 40px;
+  background: #c74e4e;
+}
+#right {
+  width: 40px;
+  height: 180px;
+}
+#middle {
+  width: 200px;
+  grid-column: span 3;
+}
+#tanks {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(#54c144 10px, #000000 10px 30px, #54c144 10px);
+  box-shadow: 45px 0px 0px -15px #ffffff, 65px 0px 0px -15px #ffffff;
+}
+#tanks > div {
+  width: 20px;
+  height: 20px;
+  background: #54c144;
+  margin: 10px;
+}
+#gun {
+  position: absolute;
+  translate: 20px -35px;
+  height: 10px !important;
+}
