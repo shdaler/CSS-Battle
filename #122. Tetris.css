@@ -1,0 +1,99 @@
+<p
+  y
+  > </p
+  > <p
+  y
+  > </p
+  > <p
+  > </p
+  > <p
+  y
+  > </p
+  > <p
+  y
+  > </p
+  > <p
+  y
+  > </p
+  > <p
+  > </p
+  > <p
+  t
+  > </p
+  > <p
+  id="a"
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  t
+  > </p
+  > <p
+  > </p
+  > <p
+  id="b"
+  > </p
+  > <p
+  t
+  > </p
+  > <p
+  t
+  > </p
+  > <p
+  id="c"
+  > </p
+  > <p
+  p
+  > </p
+  > <p
+  p
+  > </p
+  > <p
+  p
+  > </p
+  > <p
+  p
+  id="last"
+  > </p
+  > <p
+  t
+  > </p
+  > <style
+  > body {
+  background: #173889;
+  display: grid;
+  align-content: end;
+  margin: 0px 50px;
+  gap: 6px;
+  grid-template: repeat(4, auto) / repeat(6, auto);
+  grid-auto-flow: column;
+}
+p {
+  width: 45px;
+  height: 45px;
+  background: #ee4f63;
+  margin: 0px;
+}
+#last {
+  grid-row-start: 3;
+}
+#a {
+  translate: 51px -51px;
+}
+#b {
+  translate: 51px -102px;
+}
+#c {
+  translate: 0px -102px;
+}
+[y] {
+  background: #f8da37;
+}
+[t] {
+  background: #2ce1ea;
+}
+[p] {
+  background: #b069f7;
+}
