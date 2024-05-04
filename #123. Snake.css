@@ -1,0 +1,65 @@
+<p
+  id="white"
+  > </p
+  > <p
+  id="topSpace"
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  class="rightSide"
+  > </p
+  > <p
+  class="rightSide"
+  > </p
+  > <p
+  class="rightSide"
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <style
+  > p {
+  width: 20px;
+  height: 20px;
+  background: #e0e246;
+  border-radius: 5px;
+  margin: 0px;
+}
+body {
+  background: #c74e4e;
+  display: grid;
+  place-content: center;
+  gap: 5px;
+}
+#topSpace {
+  grid-column-start: 5;
+}
+.rightSide {
+  grid-column-start: 9;
+}
+#white {
+  border-radius: 50%;
+  background: #ffffff;
+}
