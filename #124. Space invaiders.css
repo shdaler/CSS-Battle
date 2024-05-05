@@ -1,0 +1,76 @@
+<p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  y
+  > </p
+  > <p
+  y
+  id="space"
+  > </p
+  > <p
+  y
+  > </p
+  > <div
+  id="projectile"
+  > </div
+  > <div
+  > </div
+  > <style
+  > body {
+  background: #071945;
+  display: flex;
+  margin: 40px 30px 0px 40px;
+  gap: 40px;
+  flex-wrap: wrap;
+  height: 0px;
+}
+div {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #2ce1ea;
+  bottom: -15px;
+  left: 185px;
+  rotate: 45deg;
+}
+#projectile {
+  rotate: 0deg;
+  scale: 0.34;
+  bottom: 10px;
+  color: #2ce1ea;
+  box-shadow: 0px 15px, 0px -88px, 0px -176px;
+}
+p {
+  width: 50px;
+  height: 10px;
+  background: #b069f7;
+  margin: 0px;
+}
+p:before,
+p:after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: #b069f7;
+}
+p:before {
+  translate: -10px 10px;
+}
+p:after {
+  translate: 50px;
+}
+[y],
+[y]:before,
+[y]:after {
+  background: #f8da37;
+}
+#space {
+  margin-left: 90px;
+}
