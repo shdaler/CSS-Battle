@@ -1,0 +1,70 @@
+<div
+  id="left"
+  > </div
+  > <div
+  id="d"
+  > <div
+  > </div
+  > </div
+  > <div
+  id="bottomRight"
+  > </div
+  > <style
+  > body {
+  background: #eff2f1;
+  display: grid;
+  place-items: center;
+}
+div {
+  background: #1c1c1c;
+  position: absolute;
+}
+#left {
+  width: 60px;
+  height: 180px;
+  translate: -60px;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 100%,
+    0 95%,
+    33.5% 88.5%,
+    33.5% 11.5%,
+    0 5%
+  );
+}
+#d {
+  width: 90px;
+  height: 90px;
+  translate: 15px -45px;
+  border-radius: 0px 45px 45px 0px;
+  display: flex;
+  align-items: center;
+}
+#d > div {
+  background: #eff2f1;
+  width: 50px;
+  height: 60px;
+  border-radius: 0px 30px 30px 0px;
+}
+#bottomRight {
+  width: 120px;
+  height: 92;
+  translate: 30px 44px;
+  clip-path: polygon(
+    45.5% 0,
+    80% 78%,
+    100% 93%,
+    100% 100%,
+    51.5% 100%,
+    7% 0%,
+    0 0,
+    0% 40%,
+    0% 78%,
+    16.5% 90%,
+    16.5% 100%,
+    0% 100%,
+    0 0
+  );
+}
