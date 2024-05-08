@@ -1,0 +1,40 @@
+<div
+  id="a"
+  > </div
+  > <div
+  > </div
+  > <div
+  id="b"
+  > </div
+  > <div
+  id="c"
+  > </div
+  > <style
+  > body {
+  background: #62306d;
+  display: grid;
+  place-items: center;
+}
+div {
+  width: 42px;
+  height: 140px;
+  background: #fef9ca;
+  position: fixed;
+  transform: translate(-30px) skew(-20deg);
+}
+#a {
+  transform: translate(30px) skew(20deg);
+  background: #c5b732;
+}
+#c {
+  height: 50px;
+  width: 52px;
+  background: #e38f66;
+  transform: translate(-24px, 45px) skew(-40deg);
+}
+#b {
+  height: 50px;
+  width: 52px;
+  background: #aa445f;
+  transform: translate(24px, 45px) skew(40deg);
+}
