@@ -1,0 +1,36 @@
+<div></div>
+<div id="center">
+  <div></div>
+  <div></div>
+</div>
+<div></div>
+<div id="dots"></div>
+<style>
+  body {
+    background: #E3516E;
+    display: grid;
+    place-content: center;
+  }
+  div {
+    width: 100px;
+    height: 30px;
+    background: #FADE8B;
+    border-radius: 15px;
+  }
+  #dots {
+    position: absolute;
+    width: 30px;
+    translate: 252px 62px;
+    box-shadow: -150px 130px #FADE8B;
+  }
+  #center {
+    height: 100px;
+    display: flex;
+    gap: 30px;
+  }
+  #center > div {
+    background: #E3516E;
+    height: 100px;
+    border-radius: 10px;
+  }
+</style>
