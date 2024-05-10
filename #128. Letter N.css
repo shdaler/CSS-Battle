@@ -1,0 +1,32 @@
+<div
+  id="bottom"
+  > </div
+  > <div
+  id="yellow"
+  > </div
+  > <div
+  > </div
+  > <style
+  > body {
+  background: #998235;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  gap: 4px;
+}
+div {
+  width: 40px;
+  height: 230px;
+  background: #0b2429;
+}
+#bottom {
+  align-self: end;
+  z-index: 1;
+}
+#yellow {
+  align-self: center;
+  height: 160px;
+  width: 42px;
+  background: #fcbe5c;
+  transform: skew(20deg);
+}
