@@ -1,0 +1,14 @@
+<div > </div > <style > body {
+  background: #6592cf;
+  display: grid;
+  place-content: center;
+}
+div {
+  width: 100px;
+  height: 80px;
+  background: #060f55;
+  border-radius: 0px 40px 40px 0px;
+  translate: -40px -30px;
+  box-shadow: 0px 60px #060f55, 40px 0px #2e3b9f, 40px 60px #2e3b9f,
+    80px 0px #515dbd, 80px 60px #515dbd;
+}
