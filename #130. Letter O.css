@@ -1,0 +1,24 @@
+<div id="white" > <div > </div > </div > <style > body {
+  background: #926927;
+}
+body,
+div {
+  display: grid;
+  place-items: center;
+}
+div {
+  width: 100px;
+  height: 160px;
+  background: #ffffff;
+  border-radius: 30px;
+  box-shadow: -20px 0px #6d480a;
+  translate: 10px;
+}
+div > div {
+  width: 40px;
+  height: 120px;
+  background: #926927;
+  border-radius: 10px;
+  rotate: 180deg;
+  translate: -10px;
+}
