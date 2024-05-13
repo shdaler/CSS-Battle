@@ -1,0 +1,44 @@
+<div
+  > </div
+  > <div
+  > </div
+  > <div
+  id="white"
+  > </div
+  > <p
+  > </p
+  > <p
+  id="uWhite"
+  > </p
+  > <style
+  > body {
+  background: #e38f66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+p {
+  position: absolute;
+  border: 30px solid #62306d;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  translate: -44.9px 20px;
+  clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
+}
+#uWhite {
+  border-color: #fffbda;
+  translate: 45px 20px;
+  z-index: -1;
+}
+div {
+  width: 30px;
+  height: 120px;
+  background: #62306d;
+  border-radius: 15px;
+  translate: 0px -20px;
+}
+#white {
+  background: #fffbda;
+}
