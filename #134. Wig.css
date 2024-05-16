@@ -1,0 +1,19 @@
+<div id="top" > </div > <div > </div > <div id="right" > </div > <style > body {
+  background: #62306d;
+  display: grid;
+  place-content: center;
+}
+div {
+  width: 80px;
+  height: 80px;
+  background: #f7ec7d;
+  border-radius: 0px 0px 40px 0px;
+}
+#top {
+  grid-column: span 2;
+  width: 160px;
+  border-radius: 80px 80px 0px 0px;
+}
+#right {
+  rotate: 90deg;
+}
