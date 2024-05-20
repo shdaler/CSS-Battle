@@ -1,0 +1,31 @@
+<div
+  > </div
+  > <div
+  id="right"
+  > </div
+  > <div
+  id="middle"
+  > </div
+  > <style
+  > body {
+  background: #926927;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: #6d480a;
+  border-radius: 0px 100%;
+  margin-top: 40px;
+}
+#right {
+  rotate: 90deg;
+}
+#middle {
+  position: absolute;
+  background: #ffffff;
+  rotate: 45deg;
+  margin-top: 0px;
+}
