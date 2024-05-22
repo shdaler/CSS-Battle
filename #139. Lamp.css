@@ -1,0 +1,18 @@
+<div id="shade" > </div > <div id="tube" > </div > <style > body {
+  background: #e38f66;
+  display: grid;
+  justify-items: center;
+  align-content: end;
+  margin: 0px;
+}
+#shade {
+  width: 62px;
+  border-bottom: 120px solid #fffbda;
+  border-left: 32.5px solid transparent;
+  border-right: 32.5px solid transparent;
+}
+#tube {
+  height: 90px;
+  width: 10px;
+  background: #62306d;
+}
