@@ -1,0 +1,19 @@
+<div id="moon" > </div > <div id="pyramid" > </div > <style > body {
+  background: #4f77ff;
+  display: grid;
+  justify-items: center;
+  align-content: end;
+  margin: 0px;
+}
+#moon {
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle at 50% 100%, #4f77ff 40px, #ffffff 40px);
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+#pyramid {
+  border-bottom: 162.5px solid #1038bf;
+  border-left: 162.5px solid transparent;
+  border-right: 162.5px solid transparent;
+}
