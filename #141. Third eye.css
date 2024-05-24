@@ -1,0 +1,33 @@
+<div
+  > </div
+  > <div
+  id="center"
+  > </div
+  > <div
+  id="bottomRight"
+  > </div
+  > <style
+  > body {
+  background: #e3516e;
+  display: grid;
+  margin: 0px;
+}
+div {
+  width: 75px;
+  height: 75px;
+  background: #d9d9d9;
+  border-radius: 0px 0px 75px 0px;
+}
+#center {
+  justify-self: center;
+  align-self: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 0px 100px;
+  rotate: -45deg;
+}
+#bottomRight {
+  justify-self: end;
+  align-self: end;
+  rotate: 180deg;
+}
