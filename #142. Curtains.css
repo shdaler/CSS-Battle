@@ -1,0 +1,27 @@
+<div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <style
+  > body {
+  background: #4f77ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+div {
+  width: 60px;
+  height: 200px;
+  background: #1038bf;
+}
+div:nth-of-type(even) {
+  width: 20px;
+  background: #ffffff;
+}
