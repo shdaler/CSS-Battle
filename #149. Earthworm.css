@@ -1,0 +1,37 @@
+<p
+  > </p
+  > <div
+  id="vertical"
+  > </div
+  > <div
+  id="horizontal"
+  > </div
+  > <style
+  > body {
+  background: #e38f66;
+  margin: 100px 0px;
+}
+div {
+  width: 120px;
+  height: 120px;
+  background: #fffbda;
+  border-radius: 20px;
+  box-shadow: 80px 80px #fffbda;
+}
+#vertical {
+  width: 40px;
+}
+#horizontal {
+  height: 40px;
+  translate: 0px -100%;
+}
+p {
+  position: absolute;
+  background: #e38f66;
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  translate: 40px 15px;
+  box-shadow: -10px 10px #fffbda, -10px 88px #e38f66, 0px 80px #fffbda,
+    80px 80px #e38f66, 70px 95px #fffbda;
+}
