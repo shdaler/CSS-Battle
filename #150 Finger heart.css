@@ -1,0 +1,20 @@
+<div > </div > <p > </p > <p id="right" > </p > <style > body {
+  background: #4f77ff;
+  margin: 0px;
+}
+div {
+  width: 150px;
+  height: 150px;
+  background: #1038bf;
+}
+p {
+  width: 50px;
+  height: 50px;
+  background: #1038bf;
+  translate: 100px -16px;
+  border-radius: 0px 0px 25px 25px;
+}
+#right {
+  rotate: -90deg;
+  translate: 150px -132px;
+}
