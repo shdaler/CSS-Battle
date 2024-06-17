@@ -1,0 +1,71 @@
+<p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  class="empty"
+  > </p
+  > <p
+  > </p
+  > <p
+  class="empty"
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <p
+  > </p
+  > <style
+  > body {
+  background: #e3516e;
+  display: grid;
+  place-content: center;
+  grid-template: repeat(5, 40px) / repeat(5, 40px);
+  place-items: center;
+}
+p {
+  width: 40px;
+  height: 40px;
+  background: #fade8b;
+}
+p:nth-of-type(even) {
+  background: radial-gradient(#fade8b 10px, #e3516e 10px);
+}
+.empty {
+  background: #e3516e !important;
+}
