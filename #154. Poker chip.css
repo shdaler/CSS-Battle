@@ -1,0 +1,47 @@
+<div
+  > </div
+  > <div
+  id="oblique1"
+  > </div
+  > <div
+  id="oblique2"
+  > </div
+  > <div
+  id="horizontal"
+  > </div
+  > <div
+  id="innerCircle"
+  > </div
+  > <style
+  > body {
+  background: radial-gradient(
+    circle,
+    #0b2429 80px,
+    #fcbe5c 80px 95px,
+    #0b2429 95px 105px,
+    #998235 100px
+  );
+  display: grid;
+  place-items: center;
+}
+div {
+  position: absolute;
+  width: 30px;
+  height: 200px;
+  background: #0b2429;
+}
+#innerCircle {
+  width: 120px;
+  height: 120px;
+  border: 10px solid #fcbe5c;
+  border-radius: 50%;
+}
+#oblique1 {
+  rotate: 45deg;
+}
+#oblique2 {
+  rotate: -45deg;
+}
+#horizontal {
+  rotate: 90deg;
+}
