@@ -1,0 +1,39 @@
+<p a></p><p b></p><p></p><p></p><p></p><p></p><p></p><p></p><p c></p><p></p><p></p><p></p><p></p><p d></p><p></p><p></p><p></p><p></p><p></p><p></p><p e></p>
+<div>
+  <p f></p><p></p><p g></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p h></p><p></p>
+</div>
+<style>
+  body, div {
+    display: grid;
+    gap: 30px 10px;
+  }
+  body {
+    background: #926927;
+    place-content: center;
+    place-items: center;
+    grid-template: repeat(5, auto) / repeat(7, auto);
+  }
+  div {
+    position: absolute;
+    grid-template: repeat(4, auto) / repeat(6, auto);
+  }
+  p {
+    width: 20px;
+    height: 20px;
+    background: #F8B140;
+    border-radius: 50%;
+    margin: 0px;
+  }
+  [a], [e] {
+    grid-column-start: 4;
+  }
+  [b], [d], [g] {
+    grid-column-start: 1;
+  }
+  [c] {
+    grid-column-start: 2;
+  }
+  [f], [h] {
+    grid-column-start: 3;
+  }
+</style>
