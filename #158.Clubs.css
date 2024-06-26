@@ -1,0 +1,41 @@
+<div
+  id="top"
+  > </div
+  > <div
+  id="left"
+  > </div
+  > <div
+  id="right"
+  > </div
+  > <div
+  id="bottom"
+  > </div
+  > <style
+  > body {
+  background: #4f77ff;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  grid-template: 140px 0px / 90px 90px;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: #1038bf;
+  border-radius: 50%;
+}
+#top,
+#bottom {
+  grid-column: span 2;
+}
+#bottom {
+  border-radius: 0px;
+  translate: 0px -20px;
+  z-index: -1;
+}
+#left {
+  box-shadow: -10px 40px #4f77ff;
+}
+#right {
+  box-shadow: 10px 40px #4f77ff;
+}
