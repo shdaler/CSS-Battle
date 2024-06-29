@@ -1,0 +1,28 @@
+<div
+  > </div
+  > <div
+  id="vertical"
+  > </div
+  > <div
+  id="horizontal"
+  > </div
+  > <style
+  > body {
+  background: #f5d6b4;
+  display: grid;
+  place-items: center;
+}
+div {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #d86f45;
+}
+#vertical,
+#horizontal {
+  height: 250px;
+  width: 50px;
+}
+#horizontal {
+  rotate: 90deg;
+}
