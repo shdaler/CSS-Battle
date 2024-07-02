@@ -1,0 +1,30 @@
+<div
+  > </div
+  > <div
+  id="oblique1"
+  > </div
+  > <div
+  id="oblique2"
+  > </div
+  > <style
+  > body {
+  background: #e3516e;
+  display: grid;
+  place-items: center;
+}
+div {
+  position: absolute;
+  width: 184px;
+  height: 184px;
+  background: #fade8b;
+}
+#oblique1,
+#oblique2 {
+  background: #e3516e;
+  width: 30px;
+  height: 265px;
+  rotate: 45deg;
+}
+#oblique2 {
+  rotate: -45deg;
+}
