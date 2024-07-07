@@ -1,0 +1,38 @@
+<p
+  > </p
+  > <div
+  id="triangle1"
+  > </div
+  > <div
+  id="triangle2"
+  > </div
+  > <style
+  > body {
+  background: #f0cd48;
+  display: grid;
+  place-items: center;
+}
+div,
+p {
+  position: absolute;
+}
+#triangle1 {
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 140px solid #f0cd48;
+}
+#triangle2 {
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-bottom: 100px solid #66284a;
+  margin-top: 9px;
+}
+p {
+  width: 100px;
+  height: 100px;
+  background: #66284a;
+  border-radius: 50%;
+  translate: 0px -70px;
+  color: #66284a;
+  box-shadow: -100px 140px, 100px 140px;
+}
