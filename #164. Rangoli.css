@@ -1,0 +1,44 @@
+<div
+  id="yellow"
+  > </div
+  > <div
+  id="orange"
+  > </div
+  > <div
+  id="purple"
+  > </div
+  > <div
+  id="white"
+  > </div
+  > <style
+  > body {
+  background: #66284a;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  grid-template: 50px 70px 50px / 120px 120px;
+}
+div {
+  width: 60px;
+  height: 60px;
+  border: 20px solid #f0cd48;
+  border-radius: 50%;
+  border-left-color: transparent !important;
+  rotate: -45deg;
+}
+#yellow,
+#white {
+  grid-column: span 2;
+}
+#orange {
+  rotate: -135deg;
+  border-color: #d86f45;
+}
+#white {
+  rotate: 135deg;
+  border-color: #fdfbf8;
+}
+#purple {
+  rotate: 45deg;
+  border-color: #d669ec;
+}
