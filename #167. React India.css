@@ -1,0 +1,29 @@
+<div
+  > </div
+  > <div
+  id="green"
+  > </div
+  > <div
+  id="orange"
+  > </div
+  > <style
+  > body {
+  background: radial-gradient(circle, #73c6ea 20px, #0d1335 20px);
+  display: grid;
+  place-items: center;
+}
+div {
+  width: 230px;
+  height: 90px;
+  border: 10px solid #fbfae2;
+  border-radius: 50%;
+  position: absolute;
+}
+#green {
+  rotate: -60deg;
+  border-color: #4fa07b;
+}
+#orange {
+  rotate: 60deg;
+  border-color: #dc6638;
+}
