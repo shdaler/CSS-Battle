@@ -1,0 +1,14 @@
+<div > </div > <div > </div > <div > </div > <div > </div > <style > body {
+  background: #0d1335;
+  margin: 0px;
+  display: grid;
+  grid-template: 280px / 330px 0px;
+}
+div {
+  width: 70px;
+  height: 20px;
+  background: #dc6638;
+  box-shadow: 0px 0px 0px 20px #0d1335, 0px 0px 0px 40px #dc6638,
+    0px 0px 0px 60px #0d1335, 0px 0px 0px 80px #dc6638,
+    0px 0px 0px 100px #0d1335, 0px 0px 0px 120px #dc6638;
+}
