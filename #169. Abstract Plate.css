@@ -1,0 +1,37 @@
+<p > </p > <p > </p > <style > * {
+  background: radial-gradient(
+    circle,
+    #4fa07b 55px,
+    0,
+    #0d1335 65px,
+    0,
+    #4fa07b 85px,
+    0,
+    #0d1335 95px,
+    0,
+    #4fa07b 115px,
+    0,
+    #0d1335 125px,
+    0,
+    #4fa07b
+  );
+}
+body {
+  background: #fbfae2;
+  margin: 32px 45px;
+  clip-path: polygon(0 0, 0 100%, 50% 59%, 100% 100%, 100% 0, 50% 41%);
+}
+p {
+  position: fixed;
+  inset: 0;
+  clip-path: polygon(
+    55px 34px,
+    55px 234px,
+    190px 150px,
+    166px 134px,
+    190px 118px
+  );
+}
+p + p {
+  scale: -1;
+}
