@@ -1,0 +1,26 @@
+<div > </div > <div id="a" > </div > <style > body {
+  background: #efeb99;
+  display: grid;
+  place-items: center;
+}
+div {
+  width: 190px;
+  height: 30px;
+  background: #8647e6;
+  position: absolute;
+  rotate: 45deg;
+}
+#a {
+  rotate: -45deg;
+}
+div:before,
+div:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: #8647e6;
+  border-radius: 50%;
+  translate: -15px -15px;
+  box-shadow: 190px 0px #8647e6;
+}
