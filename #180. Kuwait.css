@@ -1,0 +1,10 @@
+<div > </div > <style > body {
+  background: linear-gradient(#13aa4b 33.3%, #ffffff 33.3% 66.7%, #ec1e25 0%);
+  margin: 0px;
+}
+div {
+  height: 100px;
+  border-bottom: 100px solid transparent;
+  border-top: 100px solid transparent;
+  border-left: 120px solid;
+}
