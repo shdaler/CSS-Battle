@@ -1,0 +1,27 @@
+<div
+  > </div
+  > <div
+  class="long"
+  > </div
+  > <div
+  > </div
+  > <div
+  class="long"
+  > </div
+  > <style
+  > body {
+  background: #de3832;
+  margin: 0px;
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+div {
+  width: 110px;
+  height: 110px;
+  background: #33499f;
+  box-shadow: 0px 0px 0px 15px #ffffff;
+}
+.long {
+  width: 210px;
+}
