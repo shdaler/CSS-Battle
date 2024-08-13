@@ -1,0 +1,23 @@
+<div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <div
+  > </div
+  > <style
+  > body {
+  background: #da291c;
+  margin: 0px;
+}
+div {
+  width: 160px;
+  height: 50px;
+  background: #ffffff;
+  clip-path: polygon(0 0, 62.5% 0, 100% 50%, 62.5% 100%, 0 100%);
+}
