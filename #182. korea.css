@@ -1,0 +1,48 @@
+<p
+  > <a
+  > <a
+  > <a
+  i
+  > <a
+  a
+  > <a
+  a
+  > <a
+  a
+  > <p
+  > <a
+  a
+  > <a
+  > <a
+  i
+  a
+  > <a
+  > <a
+  a
+  > <a
+  > <style
+  > html {
+  background: radial-gradient(1Q, #0000, 64Q, #fff),
+    radial-gradient(1Q, #cd2e3a, 30px, #0000)-32Q,
+    radial-gradient(1Q, #0047a0, 32Q, #0000) 32Q,
+    linear-gradient(#cd2e3a 50%, #0047a0 0);
+}
+p {
+  rotate: 30deg;
+  margin: 141 59;
+}
+p + p {
+  rotate: 150deg;
+  margin: -159 59;
+}
+a {
+  padding: 21.5 5;
+  background: #000;
+  margin: 3;
+}
+[i] {
+  margin-right: 173;
+}
+[a] {
+  background: linear-gradient(#000, 45%, #fff 0 55%, #000 0);
+}
