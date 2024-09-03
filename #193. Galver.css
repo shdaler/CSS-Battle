@@ -1,0 +1,51 @@
+<div
+  id="vertical"
+  > </div
+  > <div
+  id="horizontal"
+  > </div
+  > <div
+  id="pink"
+  > </div
+  > <style
+  > body {
+  background: radial-gradient(
+    circle,
+    #8b0051 50px,
+    #fcddeb 50px 65px,
+    #8b0051 65px 80px,
+    #fcddeb 80px
+  );
+  display: grid;
+  place-items: center;
+}
+#vertical,
+#horizontal {
+  width: 30px;
+  height: 230px;
+  background: #8b0051;
+  position: absolute;
+  border-radius: 15px;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 7%,
+    50% 50%,
+    100% 93%,
+    100% 100%,
+    0 100%,
+    0 93%,
+    50% 50%,
+    0 7%
+  );
+}
+#horizontal {
+  rotate: 90deg;
+}
+#pink {
+  width: 70px;
+  height: 70px;
+  background: radial-gradient(circle, transparent 20px, #f180b6 20px);
+  border-radius: 50%;
+  z-index: 1;
+}
