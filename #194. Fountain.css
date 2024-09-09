@@ -50,13 +50,13 @@ div > div {
 #bottomRight:before {
   content: "";
   display: block;
-  background: #4fa07b;
+  background: #4b9d78;
   width: 20px;
   height: 60px;
 }
 #bottomLeft:before {
   translate: -40px 137px;
-  box-shadow: 40px -37px #0d1335, 80px -17px #0d1335, 120px 3px #0d1335,
+  box-shadow: 40px -37px #0d1335, 80px -17px #0c1233, 120px 3px #0d1335,
     160px -17px #0d1335, 200px -37px #0d1335;
 }
 #bottomRight:before {
