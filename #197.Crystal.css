@@ -1,0 +1,23 @@
+<p > <p > <p > <dl > * {
+  background: var(--b, #5f133f);
+  margin: 0;
+  position: fixed;
+  color: #f7bed9;
+  p {
+    --b: #f075b0;
+    inset: 42Q 185Q;
+    box-shadow: inset 0 30px, inset 0 -30px;
+    clip-path: polygon(50% 0, 100% 30px, 100% 190px, 50% 100%, 0 190px, 0 30px);
+  }
+  p + p {
+    rotate: 60deg;
+  }
+  p + p + p {
+    rotate: 120deg;
+  }
+  dl {
+    inset: 125px 175px;
+    --b: #f7bed9;
+    border-radius: 9in;
+  }
+}
