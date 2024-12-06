@@ -37,11 +37,11 @@ div {
   translate: 0px -70px;
 }
 div > div {
-  width: 20px;
+  width: 21px;
   height: 60px;
 }
 #bottomLeft {
-  translate: -60px 30px;
+  translate: -61px 30px;
 }
 #bottomRight {
   translate: 60px 30px;
