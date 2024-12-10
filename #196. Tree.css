@@ -1,7 +1,7 @@
 <p > <p > <p t > <p r > <p r t > * {
   background: #90d3a6;
   * {
-    background: #024817;
+    background: #0b4d1f;
     margin: 60px 190px;
     border-radius: 9in;
   }
@@ -15,7 +15,7 @@
     position: fixed;
     height: 20px;
     width: 65px;
-    margin: 96px -46px;
+    margin: 96px -47px;
     rotate: 30deg;
   }
   [t] {

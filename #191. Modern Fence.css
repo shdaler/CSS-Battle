@@ -19,12 +19,12 @@
   display: grid;
   place-content: center;
   place-items: center;
-  gap: 46px;
+  gap: 46.5px;
 }
 div {
   width: 240px;
   height: 20px;
-  background: #eeecf6;
+  background: #eeecf6f7;
   border-radius: 10px;
   rotate: 30deg;
 }

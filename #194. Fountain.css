@@ -50,7 +50,7 @@ div > div {
 #bottomRight:before {
   content: "";
   display: block;
-  background: #4b9d78;
+  background: #4b9d78f9;
   width: 20px;
   height: 60px;
 }
