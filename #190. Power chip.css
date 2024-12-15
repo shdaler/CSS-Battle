@@ -25,7 +25,7 @@ div:after {
 div:before {
   border-left: 25px solid #fade8b;
   border-right: 25px solid #fade8b;
-  border-bottom: 40px solid #e3516e;
+  border-bottom: 40px solid #e3516ef8;
 }
 div:after {
   background: #e3516e;
