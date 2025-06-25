@@ -24,7 +24,7 @@ p {
   position: absolute;
   width: 22px;
   height: 55px;
-  background: #f7ffcf;
+  background: #f7ffcfec;
   border-radius: 11px 11px 0px 0px;
   translate: 0px -72.5px;
   z-index: 3;
@@ -32,13 +32,13 @@ p {
 div {
   width: 100px;
   height: 150px;
-  background: #f7ffcf;
+  background: #f7ffcfeb;
   margin-top: 50px;
   border-radius: 50%;
-  box-shadow: 0px 0px 0px 10px #784972;
+  box-shadow: 0px 0px 0px 10px #693e63;
 }
 #center {
-  z-index: 2;
+  z-index: 3;
 }
 #four {
   z-index: 1;
